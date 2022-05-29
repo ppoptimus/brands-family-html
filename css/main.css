@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+.container1 {
+	max-width: 840px;
+	margin: 0 auto;
+	min-height: 100vh;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 50px;
+	padding: 0;
+}
+
+.container1 .logo {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.wrapper {
+	background: url('../img/bg-register.png') no-repeat center center;
+	background-size: cover;
+	padding: 30px;
+	min-height: 100vh;
+	font-family: 'Prompt', sans-serif;
+}
+@media (max-width: 991px) {
+	.wrapper {
+		padding: 15px;
+	}
+}
+
+.product-list {
+    display: flex;
+    margin: 0 -20px;
+    flex-wrap: wrap;
+    height: 50vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body {
+    background: #e9f1ff;
+    background-size: cover;
+}
+
+footer {
+    background: #104623;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    background: #fff;
+    border-radius: 50px;
+    display: flex;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #114925;
+    font-family: 'Prompt', sans-serif;
+    /* max-width: 50%; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    width: max-content;
+}
+
+footer svg {
+    width: 20px;
+    margin: 0 5px;
+    fill: #3cc655;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.card {
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    border: 0.5px solid rgba(2, 90, 112, 0.95);
+}
